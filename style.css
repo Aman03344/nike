@@ -1,0 +1,1088 @@
+*{
+
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:  "Helvetica Now Text", Helvetica, Arial, sans-serif;
+    /* border: 1px solid purple; */
+}
+
+.container{
+
+    width: 100%;
+    height: 100vh;
+    background-color: #F5F5F5;
+}
+
+.minibar{
+width: 100%;
+height:40px;
+/* background-color: aqua; */
+display: flex;
+align-items: center;
+justify-content: start;
+
+}
+
+.jordanlogo{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  /* background-color: antiquewhite; */
+    width: 20%;
+    height: auto;
+}
+
+.jordanlogo img{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+    width: 30%;
+}
+
+.find-store{
+    width: 80%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 40px;
+}
+
+
+.find-store ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.navbar{
+
+    width: 100%;
+    height: 70px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.nike-logo{
+
+    width: 20%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    /* background-color: aquamarine; */
+    padding-left: 10px;
+
+}
+
+.nike-logo img{
+    width:40%;
+    height: 70px;
+    
+}
+
+.navbar-content{
+ width: 50%;
+ height: 70px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+ /* background-color: antiquewhite; */
+
+}
+
+.navbar-content ul{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    font-weight: 700;
+}
+
+.navbar-content ul li:hover{
+    text-decoration: underline;
+    
+
+}
+
+.search-bar{
+    width: 20%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.search-bar button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border: 1px solid #e3e3e3 ;
+    /* background-color: aqua; */
+   
+}
+
+.search-bar i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #F5F5F5;
+    font-size: 20px;
+}
+
+.search-bar i:hover{
+    background-color: #e0e0e0;
+}
+
+
+.search-bar button input{
+    border: 1px solid #F5F5F5;
+    width: auto;
+    height: 35px;
+    border-radius: 30px;
+    background-color: #F5F5F5;
+    border: none;
+    outline: none;
+}
+
+.search-bar button input::placeholder{
+    padding-left: 10px;
+   
+}
+
+
+.nav-icon{
+    width: 10%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-icon i{
+    font-size: 25px;
+    font-weight: 100;
+    
+}
+
+.nav-icon i:hover{
+    padding: 5px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    
+}
+
+.heading-section{
+   
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    line-height: 30px;
+    background-color: #F5F5F5;
+    margin-top: 10px 
+    
+}
+
+.heading-section h3{
+
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.heading-section p a{
+
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.heading-section p a:hover{
+
+  text-decoration: underline;
+}
+
+
+.image-section{
+    /* margin-top: ; */
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img-con{
+    width: 90%;
+    height: 500px;
+    background-image: url(./nike-just-do-it\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    
+}
+
+.winning-heading{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+    
+    
+}
+
+.winning-heading p{
+    padding: 20px;
+    color: rgb(75, 75, 75);
+
+}
+
+.winning-heading h1{
+    font-size: 70px;
+    font-weight: bolder;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0px;
+}
+
+.winning-heading button{
+
+    width: 140px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.winning-heading button:hover{
+
+    background-color: #707072;
+
+}
+
+.featured-imgs{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding-top: 35px;
+    
+}
+
+
+
+.heading-icon{
+    
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 90px;
+    /* background-color: aqua; */
+}
+
+.heading-icon h1{
+
+    font-weight: 300;
+}
+
+.icon{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+}
+
+.icon i{
+
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: #cacacb62;
+   
+}
+
+.icon i:hover{
+
+    background-color: #61616162;
+   
+}
+
+
+
+
+.shoe-image-con{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+    /* flex-wrap: wrap; */
+}
+
+.box1{
+
+    width: 385px;
+    height: 480px;
+    background-image: url(nike-just-do-it.jpeg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.box1 h2{
+
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.box1 button{
+
+    width: 75px;
+    height: 38px;
+    border-radius: 25px;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.box1 button:hover{
+   background-color: #CACACB;
+}
+
+.box2{
+
+    width: 385px;
+    height: 480px;
+    background-image: url(./nike-just-do-it\ \(1\).jpeg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+    padding: 50px;
+
+}
+
+
+.box2 h2{
+
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.box2 button{
+
+    width: 75px;
+    height: 38px;
+    border-radius: 25px;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.box2 button:hover{
+    background-color: #CACACB;
+ }
+
+.box3{
+
+    width: 385px;
+    height: 480px;
+    background-image: url(./image\ \(4\).jpeg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+    padding: 50px;
+    
+
+}
+
+.box3 button:hover{
+    background-color: #CACACB;
+ }
+
+.box3 h2{
+
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.box3 button{
+
+    width: 75px;
+    height: 38px;
+    border-radius: 25px;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.classics{
+
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    justify-content: start;
+    align-items: end;
+    align-items: end;
+    padding-left: 40px;
+    padding-bottom: 20px;
+
+}
+
+.classics h2{
+    font-size: 25px;
+    font-weight: 200;   
+}
+
+
+.shoe-image-con2{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* flex-wrap: wrap; */
+}
+
+.box01{
+    width: 300px;
+    height: 300px;
+    background-image: url(./nike-just-do-it\ \(4\).jpeg);
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.box02{
+    width: 300px;
+    height: 300px;
+    background-image: url(./nike-just-do-it.jpg);
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.box03{
+    width: 300px;
+    height: 300px;
+    background-image: url(./nike-just-do-it\ \(2\).jpeg);
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.box04{
+    width: 300px;
+    height: 300px;
+    background-image: url(nike-just-do-it\ \(5\).jpeg);
+    background-position: center;
+    background-size: cover;
+   
+}
+
+
+.shoe-con3{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding-block: 40px;
+    /* flex-wrap: wrap; */
+    
+
+}
+
+.box-con{
+
+    width: 385px;
+    height: 450px;
+    height: auto;
+    line-height: 28px;
+
+}
+
+.box-img1{
+
+    height: 380px;
+    background-image: url(./air-pegasus-2005-shoes-4WD2hX.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.box-img2{
+
+    height: 380px;
+    background-image: url(./jordan-deja-sandals-3mH5Np.jpeg);
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.box-img3{
+
+    height: 380px;
+    background-image: url(./air-max-dn-se-shoes-MZ6hPZ.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.box-con h3{
+    /* padding-top: 12px; */
+    font-weight: 500;
+    font-size: 17px;   
+}
+
+.box-con h2{
+    padding-top: 12px;
+    font-weight: 300;
+    font-size: 17px;   
+}
+
+.box-con p{
+
+ color: #565656; 
+}
+
+
+
+.shop-by-sport{
+
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.black-white-imgs{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px;
+    /* flex-wrap: wrap; */
+
+}
+
+.black-imgs1{
+
+    width: 450px;
+    height: 300px;
+    background-image: url(./nike-just-do-it\ \(3\).jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    padding: 40px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.black-imgs2{
+
+    width: 450px;
+    height: 300px;
+    background-image: url(./nike-just-do-it\ \(4\).jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    padding: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.black-imgs3{
+
+    width: 450px;
+    height: 300px;
+    background-image: url(./nike-just-do-it\ \(5\).jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    padding: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.black-imgs1 button{
+
+    width: 95px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+
+}
+
+.black-imgs1 button:hover{
+
+    background-color: #cacacbe9;
+    
+}
+
+
+.black-imgs2 button{
+
+    width: 95px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+
+}
+
+.black-imgs2 button:hover{
+
+   background-color: #cacacbe9;
+    
+}
+
+
+.black-imgs3 button{
+
+    width: 95px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+
+}
+
+.black-imgs3 button:hover{
+
+   background-color: #cacacbe9;
+    
+}
+
+.member-benefits{
+
+    width: 100%;
+    height: 100px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.member-heading{
+
+    width: 100%;
+    height: auto;
+    padding: 30px;
+
+}
+
+.menu-icon {
+   
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    padding-right: 50px;
+}
+
+.menu-icon i{
+
+    
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: #cacacb62;
+   
+}
+
+.menu-icon i:hover{
+
+    background-color: #61616162;
+   
+}
+
+.member-heading h2{
+    
+    font-weight:300;
+}
+
+
+.colorful-imgs-con{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 15px;
+    color: white;
+    flex-wrap: wrap;
+
+    
+}
+
+.color-imgs1{
+    width: 370px;
+    height: 460px;
+    background-image: url(./nike-just-do-it\ \(6\).jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+    padding: 50px;
+    
+}
+
+.color-imgs2{
+    width: 370px;
+    height: 460px;
+    background-image: url(./nike-just-do-it.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.color-imgs3{
+    width: 370px;
+    height: 460px;
+    background-image: url(./nike-just-do-it\ \(7\).jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.color-imgs1 h2{
+   
+    line-height: 40px;
+    font-weight: 300;
+    
+}
+
+.color-imgs2 h2{
+   
+    line-height: 33px;
+    font-weight: 300;
+    
+}
+
+.color-imgs3 h2{
+   
+    line-height: 40px;
+    font-weight: 300;
+    
+}
+
+
+.color-imgs1 button{
+   
+   width: 75px;
+   height: 40px;
+   border: none;
+   border-radius: 25px;
+   font-size: 16px;
+   font-weight: 500;
+   margin-top: 10px;
+   background-color: white;
+}
+
+.color-imgs2 button{
+   
+    width: 115px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    background-color: white;
+ }
+
+ .color-imgs3 button{
+   
+    width: 115px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    background-color: white;
+ }
+
+
+ .color-imgs1 button:hover{
+
+    background-color: #d7d7d7;
+ }
+
+ .color-imgs2 button:hover{
+
+    background-color: #d7d7d7;
+ }
+
+ .color-imgs3 button:hover{
+
+    background-color: #d7d7d7;
+ }
+
+
+         /*  first list section start */
+
+
+    .main-list-con{
+
+      width: 100%;
+      height: auto;
+      display: flex;
+      padding-block: 50px;
+
+   }
+ 
+ .list-con1{
+    padding-top: 30px;
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+ }
+
+ .list-1 ul{
+
+    list-style: none;
+    line-height: 35px;
+    color: #6e6e6e;
+ }
+
+ .list-1 ul li:nth-child(1){
+
+    font-size: 22px;
+    font-weight: 300;
+    color: black;
+ }
+
+ .list-1 ul li:hover{
+
+   color: black;
+ }
+
+ .list-2 ul{
+
+    list-style: none;
+    line-height: 35px;
+    color: #6e6e6e;
+ }
+
+ .list-2 ul li:nth-child(1){
+
+    font-size: 22px;
+    font-weight: 300;
+    color: black;
+ }
+
+ .list-2 ul li:hover{
+
+    color: black;
+  }
+
+  .list-con2{
+    padding-top: 30px;
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+  }
+  
+ .list-3 ul{
+
+    list-style: none;
+    line-height: 35px;
+    color: #6e6e6e;
+ }
+
+ .list-3 ul li:nth-child(1){
+
+    font-size: 22px;
+    font-weight: 300;
+    color: black;
+ }
+
+ .list-3 ul li:hover{
+
+    color: black;
+  }
+
+ .list-4 ul{
+
+    list-style: none;
+    line-height: 35px;
+    color: #6e6e6e;
+ }
+
+ .list-4 ul li:nth-child(1){
+
+    font-size: 22px;
+    font-weight: 300;
+    color: black;
+ }
+ .list-4 ul li:hover{
+
+    color: black;
+  }
+
+  .last-list-con{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+  }
+
+  .last-part{
+
+    width: 50%;
+    height: 150px;
+    /* background-color: #6e6e6e;/ */
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    padding-right:50px;
+  }
+
+  .last-part p{
+
+    color: #777777;
+  }
+
+hr {
+    border: 0.6px solid rgb(192, 192, 192);
+    width: 90%;               
+    margin: 70px;          
+}
+
+.copy-right{
+
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+    padding: 30px;
+    
+}
+
+.copy-right p{
+    font-size: 13px;
+    color: #6e6e6e;
+    font-weight: 600;
+    padding-left: 50px;
+}
